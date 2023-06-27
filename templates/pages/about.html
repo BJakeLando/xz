@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %} 
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}"/>
+</head>
+<body class="aboutBody">
+<div id="aContainer">
+
+    <h1 style="padding-left: 250px;"><u>Founder/ CEO</u></h1>
+    <br>
+<img id="aboutImg" src="{% static 'img/kyle.png' %}" alt="kyle" style = "height: 50rem;width: 50rem;">
+<br><br>
+    <p class="aboutDescription" style="width: 50rem;">
+        Kyle M. Hecht,
+        After serving six years as an Aviation Rescue Swimmer and Helicopter Door Gunner in the United States Navy, Kyle graduated with a Bachelor of Science in Business Administration with a specialization in Entrepreneurship from San Diego State University, where his passion for helping others, especially those who serve, was refined and the idea to start a defense contracting start-up was born.  His dedication to freedom and democracy for all is his purpose in life, and he expects to deliver so long as he walks the green earth.  
+    </p>
+    <br><br>
+
+    <p class="aboutDescription" style="width: 50rem;">
+        Lean Defense Solutions is a Service-Connected Disabled Veteran owned and operated corporation that was established in 2023 by CEO and founder Kyle M. Hecht.  The company aims to leverage its employee's experiences both in and out of the military to provide first-class customer service to the brave men and women who still bear the flag and don the uniform that allows the United States to steadfastly remain the most dominant military force in the world.  Our mission extends beyond our dedication to those who serve and is set out to deter terrorism and save lives globally.
+        </p>
+ 
+</div>
+</body>
+{% endblock content %} 

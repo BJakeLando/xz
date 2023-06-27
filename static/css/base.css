@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+/* HOMEPAGE */
+#homeStuff {
+    color: rgb(89, 155, 83);
+    /* padding-top: 550px; */
+}
+#homepageStuff h1 {
+    text-decoration: underline;
+
+}
+#bg1 {
+
+    background-repeat: no-repeat;
+    background-size: 1600px 800px;
+}
+/* ABOUT PAGE */
+.aboutBody {
+    background-color: lightgray;
+    
+}
+#aContainer {
+    width: 100%;
+    align-items: center;
+    padding-left: 250px;
+}
+
+.aboutDescription {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+#aboutImg {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* DONATE PAGE */
+
+#donatePage p{
+    width: 40rem;
+}
