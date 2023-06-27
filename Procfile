@@ -1,1 +1,1 @@
-web: gunicorn wbk.wsgi --log-file -
+web: gunicorn 'wbk.wsgi'
